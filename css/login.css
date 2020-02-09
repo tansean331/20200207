@@ -1,0 +1,35 @@
+#login{
+	width: 600px;
+	height: 800px;
+	background-color: white;
+	margin: 0px;
+	display: inline-block;
+}
+
+input[type="text"]{
+	background-image: url(../img/密码.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+	/**背景图宽高为15px**/
+	background-size: 35px;
+	background-position-y: center;
+	background-position-x: 10px;
+	/*背景图不重复**/
+	text-indent: 50px;
+	width: 450px;
+	height: 55px;
+	font-size: 25px;
+	text-align: left;
+	border-style: none;
+}
+
+input[type="submit"]{
+	width: 430px;
+	height: 55px;
+	margin-top: 20px;
+	font-size: 20px;
+	border-style: none;
+	background-color: #FF5B36;
+	color: white;
+	border-radius: 3px;
+}
